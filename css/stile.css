@@ -1,0 +1,139 @@
+/*i margini devono essere sempre a 0 in tutto il sito anche per il layout(piuttosto usa i padding),
+ non mettere margini verticali (top bottom) per gli spazi, sennò questi vengono aggiunti alla altezza totale
+ e il footer viene spostato più in basso creando, così, la visualizzazione della barra laterale nel browser */
+
+* {margin:0;padding:0;}  
+
+html, body {height: 100%;}
+img {max-width:100%;}
+
+#wrap {
+	min-height: 100%; 
+	background:#CBD0CC url(../images/bg_center50.jpg) repeat-y;
+}
+
+#main {
+    overflow:auto;
+    /*padding-bottom:50px;  must be same height as the footer */
+	width: 1000px;
+	margin:0 auto;
+	clear: both;
+	/* background:purple; */
+}
+
+#corpo{
+    position:relative;
+	float:left;
+	width:1000px;
+	min-height:100px;
+	height:auto;
+	/*background:pink;*/
+}
+
+
+#logo{
+	width:45%;
+	padding:30px 0;
+}
+
+
+#imgHome{
+	/* background:#00ff00; */
+	position:relative;
+	width:50%;
+	min-height:10px;
+	padding-bottom:30px;
+}
+.home{
+	/* background:#ff0000; */
+	width:100%;
+	/* padding-bottom:10px; commentate le img sotto*/
+}
+.home img{border:1px solid #000;}
+.name{
+	/* background:#0000ff; */
+	float:left;
+	width:20%;
+	padding:0 10%;
+}
+
+
+
+#imgSocial{
+	/* background:#ff00ff; */
+	position:relative;
+	width:45%;
+	min-height:10px;
+	padding-bottom:50px;
+}
+#imgSocial img{
+	max-height:50px;
+	max-width:90%; 
+	padding:0 5%;
+}
+
+
+#anteVideo{
+	/* background:yellow; */
+	position:relative;
+	width:50%;
+	min-height:10px;
+	padding-bottom:70px;
+}
+#anteVideo embed{
+	height:150px;
+	width:44%;
+}
+
+
+#disco{
+	/* background:#00ff00; */
+	position:relative;
+	width:50%;
+	min-height:10px;
+	padding-bottom:50px;
+}
+#disco table img{width:100%;}
+
+.mail{
+	/* background:#fff; */
+	border:1px solid #000;
+	padding:20px 0;
+	width:99.5%;
+}
+
+
+#loghi{
+	/* background:#00fff0; */
+	position:relative;
+	width:60%;
+	min-height:10px;
+	padding-bottom:20px;
+}
+#loghi table img{
+	max-width:120px; 
+	max-height:50px;
+}
+/*#loghi img{
+	float:left;
+	max-width:110px;
+	max-height:40px;
+	margin-right:20px;
+}*/
+
+/*#footer {
+    position: relative;
+    margin-top: -50px; /*negative value of footer height* /
+    height: 0px;
+    height:50px;
+    clear:both;
+} */
+
+/*Opera Fix*/
+body:before {
+    content:"";
+    height:100%;
+    float:left;
+    width:0;
+    margin-top:-32767px; /* negate effect of float*/
+}

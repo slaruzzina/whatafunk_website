@@ -1,0 +1,55 @@
+/* -------------------------- includo il font ------------------------------------ */
+@font-face {
+    font-family: 'ARLRDBD';
+    src: url('../font/ARLRDBD.eot');
+    src: url('../font/ARLRDBD.eot?#iefix') format('embedded-opentype'),
+         url('../font/ARLRDBD.woff') format('woff'),
+         url('../font/ARLRDBD.ttf') format('truetype'),
+         url('../font/ARLRDBD.svg#ARLRDBD') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+a{
+    cursor:pointer;
+    text-decoration:none;
+}
+a:hover {text-decoration:none;}
+.mano {cursor:pointer;}
+/* ----------------------------------------------------------------*/
+
+.tit{
+    font:30px/32px 'ARLRDBD';
+    color:#000;
+}
+
+.txt{
+    font:16px/20px 'ARLRDBD';
+    color:#000;
+}
+
+.txt_sm{
+    font:11px/13px'ARLRDBD';
+    color:#000;
+}
+
+
+/* --------------- Link -----------------------------------*/
+a.link_tit{
+    font:30px/32px 'ARLRDBD';
+    color:#000;
+}
+a.link_tit:hover{color:#00ff00;}
+
+a.link{
+    font:16px/20px 'ARLRDBD';
+    color:#000;
+}
+a.link:hover{border-bottom:1px dotted #000;}
+
+a.link_sm{
+    font:11px/13px 'ARLRDBD';
+    color:#000;
+}
+a.link_sm:hover{color:purple;}
+

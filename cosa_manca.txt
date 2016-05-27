@@ -1,0 +1,19 @@
+copertina album con ombreggiatura -> zoom della copertina
+
+font: Arial Rounded MT Bold	->OK
+
+buy it now: https://itunes.apple.com/us/album/this-is-an-album!/id1101188002?l=it&ls=1 ->OK
+
+link "official flyer download" 	->OK
+
+baganarock.com
+indiebox.org
+
+COSE DA FARE:
+- slide prime 3 foto in alto
+- schermo intero per i video di youtube al primo click
+- zoom copertina
+- loghi in fondo
+- test mail
+- problema sfondo?
+- online
